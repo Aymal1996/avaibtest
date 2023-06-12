@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.odd-row {
+    background-color: #cccccc;
+}
+
+.even-row {
+    background-color: #f5f5f4;
+}
+
+.MuiTableRow-head {
+    background-color: #265e99;
+}
+
+.MuiTableCell-head {
+    color: #fff !important;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+
+.MuiTable-root {
+    width: 50% !important;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 70px 0;
+}
+
+.flex-2 {
+    padding: 30px 180px 0;
+}
+
+form {
+    border-bottom: 1px solid grey;
+}
+
+input {
+    margin-bottom: 13px;
+    width: 18%;
+    height: 20px;
+    border: 2px solid grey;
+}
+
+.MuiFormGroup-root {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    margin-left: 75px;
+}
+
+.MuiButton-containedPrimary {
+    left: 180px !important;
+    position: relative !important;
+    width: 130px;
+    margin-top: 10px !important;
+    background-color: rgb(220, 220, 220) !important;
+    color: #000 !important;
+    border: 2px solid black !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: capitalize !important;
+    margin-bottom: 35px !important;
+}
+
+.MuiButton-containedSecondary {
+    background-color: rgb(220, 220, 220) !important;
+    color: #000 !important;
+    border: 2px solid black !important;
+    width: 110px;
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: capitalize !important;
+}
+
+.table {
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+}
